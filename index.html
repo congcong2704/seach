@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./search.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <title>Search</title>
+</head>
+
+<body>
+    <div class="ecommerce">
+        <div class="header-top">
+            <ul class="group-item">
+                <div class="item">
+                    <li>SHOP</li>
+                    <i class="fa-solid fa-chevron-down icon-top-select"></i>
+                </div>
+                <div class="item">
+                    <li>BLOG</li>
+                    <i class="fa-solid fa-chevron-down icon-top-select"></i>
+                </div>
+                <div class="item">
+                    <li>PAGES</li>
+                    <i class="fa-solid fa-chevron-down icon-top-select"></i>
+                </div>
+            </ul>
+            <ul class="group-item">
+                <div class="item">
+                    <i class="fa-solid fa-envelope icon-top"></i>
+                    <li>info@ricky-shop.com</li>
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-phone icon-top"></i>
+                    <li>+123 488 9652</li>
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-location-dot icon-top"></i>
+                    <li>25 West 21th Street, Miami FL, USA</li>
+                </div>
+                <div class="item">
+                    <li>English</li>
+                    <i class="fa-solid fa-chevron-down icon-top"></i>
+                </div>
+            </ul>
+        </div>
+        <div class="navbar">
+            <div>
+                <img src="./logo.svg" class="image-color" alt="Logo" />
+            </div>
+            <ul class="navbar-middle">
+                <div class="navbar-item">
+                    <i class="fa-solid fa-store navbar-item-dis"></i>
+                    <li>SHOP</li>
+                </div>
+                <div class="navbar-item">
+                    <i class="fa-solid fa-dog navbar-item-dis"></i>
+                    <li>DOGS</li>
+                </div>
+                <div class="navbar-item">
+                    <i class="fa-solid fa-cat navbar-item-dis"></i>
+                    <li>CATS</li>
+                </div>
+                <div class="navbar-item">
+                    <i class="fa-solid fa-fish navbar-item-dis"></i>
+                    <li>FISH</li>
+                </div>
+                <div class="navbar-item">
+                    <i class="fa-solid fa-egg navbar-item-dis"></i>
+                    <li>SMALL PETS</li>
+                </div>
+                <div class="navbar-item">
+                    <i class="fa-solid fa-otter navbar-item-dis"></i>
+                    <li>REPTILES</li>
+                </div>
+                <div class="navbar-item">
+                    <i class="fa-solid fa-kiwi-bird navbar-item-dis"></i>
+                    <li>BIRDS</li>
+                </div>
+            </ul>
+            <div class="navbar-right">
+                <i class="fa-solid fa-magnifying-glass navbar-right-icon"></i>
+                <i class="fa-regular fa-user navbar-right-icon"></i>
+                <i class="fa-regular fa-heart navbar-right-icon"></i>
+                <i class="fa-solid fa-cart-shopping navbar-right-icon"></i>
+            </div>
+        </div>
+        <div class="l-inner">
+
+            <section
+                class="l-section l-section--container l-section--rounded-corners l-section--top-margin l-section--bottom-margin l-section--no-sidebar">
+
+                <div class="c-cart-empty">
+                    <div class="c-cart-empty__image-wrap">
+                        <svg width="60" height="65" viewBox="0 0 60 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M25.886 9.333c-6.813 0-12.336 5.596-12.336 12.499 0 6.903 5.523 12.498 12.336 12.498 3.406 0 6.49-1.398 8.722-3.66a12.542 12.542 0 0 0 3.614-8.838c0-6.903-5.523-12.499-12.336-12.499ZM41.86 32.965a19.73 19.73 0 0 0 3.413-11.133c0-10.848-8.68-19.642-19.386-19.642S6.5 10.984 6.5 21.832c0 10.848 8.68 19.641 19.386 19.641 4.08 0 7.865-1.276 10.988-3.457l9.712 9.84a3.493 3.493 0 0 0 4.985 0 3.605 3.605 0 0 0 0-5.051l-9.712-9.84Z"
+                                fill="#0052B1" />
+                            <path
+                                d="M50.028 61.857H9.972c-1.909 0-3.456-1.535-3.456-3.428C6.516 56.535 8.063 55 9.972 55h40.056c1.909 0 3.456 1.535 3.456 3.429 0 1.893-1.547 3.428-3.456 3.428Z"
+                                fill="#F63E04" />
+                        </svg>
+                    </div>
+                    <h1 class="c-cart-empty__header">Oops! That page can’t be found</h1>
+                    <p class="c-cart-empty__try">The page you are trying to reach is not available. Maybe try a search?
+                    </p>
+                    <div class="c-cart-empty__search">
+                        <div class="c-search-form">
+                            <form role="search" method="get" class="js-search-form-entry" class="c-search-form__wrap">
+                                <label class="c-search-form__label">
+                                    <input class="c-form__input c-form__input--full c-search-form__input" type="search"
+                                        placeholder="Search &hellip;" value="" name="s" /></label>
+
+
+                        </div>
+
+                        </form>
+                    </div>
+                </div>
+
+        </div>
+
+        </section>
+
+    </div>
+
+
+    <input type="hidden" id="woocommerce-process-checkout-nonce" name="woocommerce-process-checkout-nonce"
+        value="9b06e732a9"><input type="hidden" name="_wp_http_referer"
+        value="/ricky/demo/?wc-ajax=update_order_review">
+
+    </div>
+    <div class="navbar-bottom">
+        <div class="navbar-bottom-item">
+            <i class="fa-solid fa-truck-fast navbar-bottom-item-icon"></i>
+            <h2 class="navbar-bottom-item-content">Free Shipping</h2>
+        </div>
+        <div class="navbar-bottom-item">
+            <i class="fa-solid fa-question navbar-bottom-item-icon"></i>
+            <h2 class="navbar-bottom-item-content">24/7 Support</h2>
+        </div>
+        <div class="navbar-bottom-item">
+            <i class="fa-solid fa-coins navbar-bottom-item-icon"></i>
+            <h2 class="navbar-bottom-item-content">Money Back Guarantee</h2>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-first">
+            <img src="../logo.svg" alt="" class="footer-first-image" />
+            <p class="footer-first-title">
+                © 2022 Ricky Theme. All rights reserved.
+            </p>
+        </div>
+        <div class="footer-second">
+            <div class="footer-second-item">
+                <i class="fa-regular fa-heart footer-second-icon"></i>
+                <p class="footer-second-title">
+                    Quis quisque viverra nulla risus integer aliquet in. Dis nascetur
+                    vitae sed ultricies vel luctus massa. Sed orci ut magnis maecenas
+                    pharetra.
+                </p>
+            </div>
+            <div class="footer-second-item">
+                <i class="fa-solid fa-truck footer-second-icon"></i>
+                <p class="footer-second-title">
+                    Ut et duis ornare in eget elit. Vestibulum nisi nec ultricies
+                    consectetur suspendisse. Vitae aliquam quis sed at et.
+                </p>
+            </div>
+            <div></div>
+        </div>
+        <div class="footer-third">
+            <div class="footer-third-item">
+                <i class="fa-solid fa-arrow-right-long footer-third-icon"></i>
+                <p>About Us</p>
+            </div>
+            <div class="footer-third-item">
+                <i class="fa-solid fa-arrow-right-long footer-third-icon"></i>
+                <p>Our Team</p>
+            </div>
+            <div class="footer-third-item">
+                <i class="fa-solid fa-arrow-right-long footer-third-icon"></i>
+                <p>Maintenance</p>
+            </div>
+            <div class="footer-third-item">
+                <p class="footer-third-follow">Follows Us:</p>
+                <div>
+                    <i class="fa-brands fa-facebook-f footer-third-social"></i>
+                    <i class="fa-brands fa-instagram footer-third-social"></i>
+                    <i class="fa-brands fa-twitter footer-third-social"></i>
+                    <i class="fa-brands fa-youtube footer-third-social"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer-four">
+            <ul class="footer-four-group-item">
+                <div class="footer-four-item">
+                    <i class="fa-solid fa-envelope icon-bottom"></i>
+                    <li>info@ricky-shop.com</li>
+                </div>
+                <div class="footer-four-item">
+                    <i class="fa-solid fa-phone icon-bottom"></i>
+                    <li>+123 488 9652</li>
+                </div>
+                <div class="footer-four-item">
+                    <i class="fa-solid fa-location-dot icon-bottom"></i>
+                    <li>25 West 21th Street, Miami FL, USA</li>
+                </div>
+            </ul>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
